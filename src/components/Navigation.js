@@ -5,7 +5,7 @@ import { CartContext } from '../contexts/CartContext';
 
 const Navigation = () => {
 	const cart = useContext(CartContext);
-	//console.log('cart from Nav: ', cart)
+
 	return (
 		<div className="navigation">
 			<NavLink to="/">Products</NavLink>
