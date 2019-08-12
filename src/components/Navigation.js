@@ -4,7 +4,7 @@ import { CartContext } from '../contexts/CartContext';
 
 
 const Navigation = () => {
-	const cart = useContext(CartContext);
+	const { cart, setCart } = useContext(CartContext);
 
 	return (
 		<div className="navigation">
